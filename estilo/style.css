@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --cor-primaria: #405D72;
+    --cor-secundaria: #F7E7DC;
+    --cor-terciaria: #FFF8F3;
+    --cor-quaternaria:#758694;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+ }
+
+ .cabecalho__nav {
+    display: flex;
+    gap: 5%;
+
+ }
+ 
+ .cabecalho__nav__link {
+     font-size: 24px;
+     font-family: "Ubuntu", sans-serif;
+     font-weight: 600;
+     color: var(--cor-terciaria);
+     text-decoration: none;       
+ }
+ 
+ .cabecalho__nav__link:hover{
+     color: var(--cor-quaternaria); 
+     transition: 0.5s;   
+ }
+ 
+.container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+    
+}
+
+.container__conteudo {
+    
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.conteudo__titulo {
+
+    font-size: 36px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.conteudo__titulo__texto {
+
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-style: 1,400;
+    font-weight: 200;
+}
+
+.titulo-destaque {
+    
+    color: var(--cor-terciaria);
+   
+}
+
+.conteudo__links {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.titulo__links {
+    
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    color: var(--cor-secundaria);
+}
+
+.conteudo__botoes__links {
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0 ;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    
+}
+
+.conteudo__botoes__links:hover {
+
+    background-color: var(--cor-quaternaria);
+    transition: 0.5s;
+}
+
+.conteudo__texto a{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+
+}
+
+.conteudo__texto a:hover{
+    color: var(--cor-quaternaria);
+    transition: 0.5s;
+}
+
+.conteudo__titulo__texto ul {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-style: 1,400;
+    font-weight: 200;
+}
+
+.conteudo__texto ul {
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-style: 1,400;
+    font-weight: 200;
+}
+
+.rodape {
+    
+    color: var(--cor-primaria);
+    text-align: center;
+    background-color: var(--cor-terciaria);
+    padding: 24px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+
