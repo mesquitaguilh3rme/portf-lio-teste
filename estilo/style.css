@@ -177,6 +177,10 @@ body {
     .container__conteudo {
         width: auto;
     }
+
+    .rodape {
+        width: auto;
+    }
     
 }
 
