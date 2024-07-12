@@ -160,4 +160,24 @@ body {
     font-weight: 200;
 }
 
+@media (max-width: 1200px){
+
+    .cabecalho {
+        padding: 2%;
+    }
+
+    .cabecalho__nav {
+        justify-content: center;
+    }
+    
+    .container { 
+        padding: 5%;
+    }
+    
+    .container__conteudo {
+        width: auto;
+    }
+    
+}
+
 
